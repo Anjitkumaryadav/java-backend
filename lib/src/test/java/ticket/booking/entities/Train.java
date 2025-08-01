@@ -13,4 +13,7 @@ public class Train {
     private List<List<Integer>> seats;
 
     private Map<String, Time> stationTime;
+
+    private List <String> stations;
+
 }

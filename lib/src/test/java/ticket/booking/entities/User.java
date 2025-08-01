@@ -1,5 +1,7 @@
 package ticket.booking.entities;
 
+import java.util.List;
+
 public class User {
    private String name;
 
@@ -7,7 +9,7 @@ public class User {
 
    private String hashPassword;
 
-   private List <ticket> ticketBooking;
+   private List<Ticket> ticketBooking;
 
    private String userId;
 }
